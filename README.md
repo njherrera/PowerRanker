@@ -1,2 +1,2 @@
 # PowerRanker
- creates an Elo ranking of all the players in a given tournament series. Requires tournament series to be hosted on challonge.com
+This projects creates a "power ranking" of all players that have competed in a given tournament series hosted on challonge.com (a website for running tournament brackets). To do this, I assign each player an "Elo score" based on their performance in each bracket, which is then compared to the scores of other players and used to form a ranking. At some point I would like to add the ability to use tournament results from the website smash.gg (another website for running tournament brackets), but at the moment I'm held back by smash.gg's limitation on requests per minute.
